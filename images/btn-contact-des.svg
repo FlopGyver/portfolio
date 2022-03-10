@@ -1,0 +1,7 @@
+<svg id="btn-contact-des" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="bouton-contact-desactive" transform="translate(5 18)">
+    <path id="Tracé_12" data-name="Tracé 12" d="M6,0H64a6,6,0,0,1,6,6V39a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" transform="translate(0.153)" fill="#969696"/>
+    <path id="Tracé_13" data-name="Tracé 13" d="M38.826.851a2,2,0,0,1,2.348,0l32.66,17.5C75.4,19.488,75.773,29,73.834,29H6.166c-1.938,0-1.569-9.512,0-10.65Z" transform="translate(75.153 29) rotate(180)" fill="#4b4b4b"/>
+  </g>
+  <rect id="Rectangle_24" data-name="Rectangle 24" width="80" height="80" fill="none"/>
+</svg>

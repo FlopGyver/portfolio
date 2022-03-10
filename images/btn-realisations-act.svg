@@ -1,0 +1,45 @@
+<svg id="btn-realisations-act" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="3" height="38" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="3" height="59" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="bouton-realisation-activer" transform="translate(11 6)">
+    <path id="Union_6" data-name="Union 6" d="M2130,50h21l-10.5,8Zm0,0V41.3l-7.222-12.071a20.373,20.373,0,0,1-1.723-2.88l-.012-.021.006.008A20.013,20.013,0,0,1,2119,17.5a21.006,21.006,0,0,1,42,0,20.029,20.029,0,0,1-2.7,10.063l-6.83,12.851L2151,41.3V50Z" transform="translate(-2111 11)" fill="#ae83b0"/>
+    <path id="Tracé_9" data-name="Tracé 9" d="M0,0" transform="translate(29.26 8.052)" fill="#4b4b4b" stroke="#707070" stroke-width="1"/>
+    <path id="Polygone_6" data-name="Polygone 6" d="M8.5,0l2.125,5.95L17,6.111,11.938,9.95,13.753,16,8.5,12.422,3.247,16,5.062,9.95,0,6.111,6.375,5.95Z" transform="translate(21 20)" fill="#98669a"/>
+    <g id="Grille_de_répétition_1" data-name="Grille de répétition 1" transform="translate(28)" clip-path="url(#clip-path)">
+      <g transform="translate(-307 -416)">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+    </g>
+    <g id="Grille_de_répétition_2" data-name="Grille de répétition 2" transform="translate(59 27) rotate(90)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-307 -416)">
+        <rect id="Rectangle_13-2" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+      <g transform="translate(-307 -373)">
+        <rect id="Rectangle_13-3" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+    </g>
+    <g id="Grille_de_répétition_3" data-name="Grille de répétition 3" transform="translate(49.299 6.58) rotate(45)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-307 -416)">
+        <rect id="Rectangle_13-4" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+      <g transform="translate(-307 -373)">
+        <rect id="Rectangle_13-5" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+    </g>
+    <g id="Grille_de_répétition_4" data-name="Grille de répétition 4" transform="translate(51.42 48.299) rotate(135)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-307 -416)">
+        <rect id="Rectangle_13-6" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+      <g transform="translate(-307 -373)">
+        <rect id="Rectangle_13-7" data-name="Rectangle 13" width="3" height="16" rx="1" transform="translate(307 416)" fill="#ba9dbb"/>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectangle_22" data-name="Rectangle 22" width="80" height="80" fill="none"/>
+</svg>

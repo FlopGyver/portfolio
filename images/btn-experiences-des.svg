@@ -1,0 +1,9 @@
+<svg id="btn-experiences-des" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="bouton-experience-desactive" transform="translate(5 12)">
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="3" height="8" transform="translate(18.701 5.786) rotate(30)" fill="#6b6b6b"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="3" height="8" transform="translate(56.299 12.714) rotate(150)" fill="#6b6b6b"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="70" height="45" rx="6" transform="translate(0 12)" fill="#969696"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="35" height="8" rx="4" transform="translate(18)" fill="#4b4b4b"/>
+  </g>
+  <rect id="Rectangle_20" data-name="Rectangle 20" width="80" height="80" fill="none"/>
+</svg>

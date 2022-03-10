@@ -1,0 +1,18 @@
+<svg id="btn-accueil-des" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <filter id="Tracé_2" x="22.5" y="28.5" width="52.5" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dx="-9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#3a3a3a" flood-opacity="0.561"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_17" data-name="Rectangle 17" width="80" height="80" fill="none"/>
+  <g id="bouton-accueil-desactive" transform="translate(5 14)">
+    <path id="Tracé_1" data-name="Tracé 1" d="M30.5,0,61,52H0Z" fill="#969696"/>
+    <g transform="matrix(1, 0, 0, 1, -5, -14)" filter="url(#Tracé_2)">
+      <path id="Tracé_2-2" data-name="Tracé 2" d="M19.5,0,39,33H0Z" transform="translate(36 33)" fill="#4b4b4b"/>
+    </g>
+  </g>
+</svg>

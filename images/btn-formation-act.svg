@@ -1,0 +1,19 @@
+<svg id="btn-formation-act" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <filter id="Union_4" x="33" y="22.5" width="38.001" height="56.999" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#4a064c" flood-opacity="0.329"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bouton-formation-active" transform="translate(5 9)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="70" height="45" rx="6" fill="#ba9dbb"/>
+    <g transform="matrix(1, 0, 0, 1, -5, -9)" filter="url(#Union_4)">
+      <path id="Union_4-2" data-name="Union 4" d="M2121,38l-3,6-3-6h0V23a10,10,0,1,1,12,0V38h0l-3,6Z" transform="translate(-2063 26.5)" fill="#98669a"/>
+    </g>
+    <path id="Union_5" data-name="Union 5" d="M2111,18V17h26v1Zm0-4V13h31v1Zm0-4V9h36v1Zm0-4V5h39V6Z" transform="translate(-2103 7)" fill="#4b4b4b"/>
+  </g>
+  <rect id="Rectangle_18" data-name="Rectangle 18" width="80" height="80" fill="none"/>
+</svg>
