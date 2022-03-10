@@ -1,6 +1,4 @@
 $(function() {
-
-    //<label class='statsLeg' style='color:white;font-style: italic;grid-row: 1;grid-column: 1/3;'>cafés</label><label class='statsLeg' style='color:white;font-style: italic;grid-row: 1;grid-column: 3/5;'>nuit blanches</label>
     let wn = 3;
     let coffee = 257;
 
@@ -102,6 +100,11 @@ $(function() {
             $("#lightsOff").removeClass("lightOn");
             $("#lightSwitch").addClass("switchOff");
             $("#lightSwitch").removeClass("switchOn");
+            $("#turnOn").addClass("turnOn");
+            $("#turnOn").removeClass("turnOff");
+            $("#arrow").addClass("turnOn");
+            $("#arrow").removeClass("turnOff");
+            $("#lightSwitch").animate({left: "46.5vw", top: "50vh"}, 800);
         } else {
             $(".off").addClass("spanMauve");
             $(".off").removeClass("off");
@@ -111,8 +114,15 @@ $(function() {
             $("#lightsOff").removeClass("lightOff");
             $("#lightSwitch").addClass("switchOn");
             $("#lightSwitch").removeClass("switchOff");
+            $("#turnOn").addClass("turnOff");
+            $("#turnOn").removeClass("turnOn");
+            $("#arrow").addClass("turnOff");
+            $("#arrow").removeClass("turnOn");
+            $("#lightSwitch").animate({left: "90vw", top: "1vh"}, 800);
         }
         
       });
+      $("#lightSwitch").click();
+      $("#imgAccueil").click();
 
 })

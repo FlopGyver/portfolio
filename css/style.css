@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all .2s;
 }
 
 html {
@@ -52,6 +51,7 @@ h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  transition: all .5s;
   
 }
 .lightOn {
@@ -59,22 +59,32 @@ h2 {
   background-color: rgba(255,255,255, 0);
 }
 .lightOff {
-  z-index: 4;
+  z-index: 1;
   background-color: rgba(0,0,0, 0.95);
 }
 #turnOn {
   color: #fff;
   font-size: 6rem;
   position: fixed;
-  bottom: 40vh;
-  margin-left: auto;
-  margin-right: auto;
+  top: 15vh;
+  text-align: center;
+  width: -webkit-fill-available;
+}
+.turnOn {
+  opacity: 1;
+  transition: all .1s;
+}
+.turnOff {
+  opacity: 0;
+  transition: all .1s;
 }
 #arrow {
   position: fixed;
-  transform: rotate(180deg);
-  bottom: 26vh;
-  left: 22.5vh;
+  top: 35vh;
+  left: 46.15vw;
+  text-align: center;
+  transform: rotate(90deg);
+  
 }
 
 /*Barre de navigation*/
@@ -91,7 +101,6 @@ h2 {
     border-top-right-radius: 5vh;
     -webkit-box-shadow: 0px -5px 50px -5px rgba(0,0,0,0.61); 
     box-shadow: 0px -5px 50px -5px rgba(0,0,0,0.61);
-    opacity: 0.85;
 }
 #btn-container {
     width: 80%;
@@ -330,11 +339,9 @@ h2 {
   position: fixed;
   background-color: rgba(0,0,0,0);
   border:0;
-  width: 7vw;
-  height: 7vw;
-  bottom: 25vh;
-  left: 5vh;
   z-index: 1001;
+  top: 50vh;
+  left: 46.5vw;
 }
 #lightSwitch:hover {
   transform: scale(1.3);
@@ -342,10 +349,16 @@ h2 {
 .switchOn {
   background-image: url("http://localhost/portfolio/images/btn-off.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 .switchOff {
   background-image: url("http://localhost/portfolio/images/btn-on.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
+  width: 7vw;
+  height: 7vw;
 }
 /*Animation texte accueil*/
 @keyframes scale {
