@@ -1,0 +1,17 @@
+<svg id="btn-send" xmlns="http://www.w3.org/2000/svg" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #98669a;
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0.83);
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-1" cx="57" cy="57" r="57"/>
+  <g id="btn-contact-envoi" transform="translate(28 32)">
+    <path id="Union_8" data-name="Union 8" class="cls-2" d="M7.182,32.066,57.111.132,25.177,50.062ZM-.073,11.394,56.921-.01,4.989,26.093Z" transform="translate(0.073 0.01)"/>
+  </g>
+</svg>

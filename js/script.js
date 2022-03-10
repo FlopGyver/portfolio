@@ -90,4 +90,29 @@ $(function() {
         $("#imgContact").css("transform", "scale(1.3)");
     })
 
+    //Light switch
+
+    $("#lightSwitch").click(function() {
+        if ($(".spanMauve")[0]){
+            $(".spanMauve").addClass("off");
+            $(".spanMauve").removeClass("spanMauve");
+            $(".glow").addClass("off");
+            $(".glow").removeClass("glow");
+            $("#lightsOff").addClass("lightOff");
+            $("#lightsOff").removeClass("lightOn");
+            $("#lightSwitch").addClass("switchOff");
+            $("#lightSwitch").removeClass("switchOn");
+        } else {
+            $(".off").addClass("spanMauve");
+            $(".off").removeClass("off");
+            $(".off").addClass("glow");
+            $(".off").removeClass("off");
+            $("#lightsOff").addClass("lightOn");
+            $("#lightsOff").removeClass("lightOff");
+            $("#lightSwitch").addClass("switchOn");
+            $("#lightSwitch").removeClass("switchOff");
+        }
+        
+      });
+
 })

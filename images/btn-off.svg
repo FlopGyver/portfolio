@@ -1,0 +1,16 @@
+<svg id="btn-off" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ba9dbb;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Tracé_414" data-name="Tracé 414" class="cls-1" d="M39,0A39,39,0,1,1,0,39,39,39,0,0,1,39,0Z"/>
+  <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-2" cx="23" cy="23" r="23" transform="translate(16 16)"/>
+  <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-1" cx="14" cy="14" r="14" transform="translate(25 25)"/>
+</svg>

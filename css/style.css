@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all .2s;
 }
 
 html {
     scroll-behavior: smooth;
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
+    font-size: 100%;
 }
 
 body {
@@ -37,8 +39,42 @@ body {
 
 h1 {
     color: white;
-    font-size: 8rem;
+    font-size: 6.5rem;
     font-family: 'Inconsolata', monospace;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#lightsOff {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.lightOn {
+  z-index: -1000;
+  background-color: rgba(255,255,255, 0);
+}
+.lightOff {
+  z-index: 4;
+  background-color: rgba(0,0,0, 0.95);
+}
+#turnOn {
+  color: #fff;
+  font-size: 6rem;
+  position: fixed;
+  bottom: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+#arrow {
+  position: fixed;
+  transform: rotate(180deg);
+  bottom: 26vh;
+  left: 22.5vh;
 }
 
 /*Barre de navigation*/
@@ -55,7 +91,7 @@ h1 {
     border-top-right-radius: 5vh;
     -webkit-box-shadow: 0px -5px 50px -5px rgba(0,0,0,0.61); 
     box-shadow: 0px -5px 50px -5px rgba(0,0,0,0.61);
-    opacity: 0.9;
+    opacity: 0.85;
 }
 #btn-container {
     width: 80%;
@@ -99,30 +135,82 @@ h1 {
     top: 5%;
     left: 5%;   
 }
-#spanMauve {
-    color: #98669a;
+.spanMauve {
+    color: #d8bdda;/*#98669a*/
     font-weight: 700;
+    text-shadow:
+      0 0 1px #c59ac7,
+      0 0 2px #c59ac7,
+      0 0 4px #98669a,
+      0 0 5px #98669a,
+      0 0 6px #98669a,
+      0 0 8px #87458a,
+      0 0 9px #87458a,
+      0 0 10px #87458a;
+}
+
+/*Section Formations*/
+
+#panesForm {
+  color: white;
+  display: grid;
+  width: 100%;
+  height: 70%;
+  align-self: center;
+  grid-template-columns: repeat(2,50%);
+  grid-template-rows: repeat(2, 50%);
+}
+.paneFormation {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 2.5vh;
+  width: 40vw;
+  height: 20vh;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1.5%;
+  margin: auto;
+}
+#paneBac {
+  grid-column: 1;
+  grid-row: 1;
+}
+#paneBts {
+  grid-column: 2;
+  grid-row: 1;
+}
+#paneLicence {
+  grid-column: 1/3;
+  grid-row: 2;
 }
 
 /*Section Contact*/
 
+#textContactSec {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 35vw;
+  left: 0.5vw;
+  position: relative;
+}
+#textContactSec label:nth-child(1) {
+  font-size: 2rem;
+}
 #formulaire {
   position: absolute;
-  left: 450%;
-  top: 15%;
+  left: 447.5vw;
+  top:7vh;
   background-color: rgba(0,0,0,0.4);
-  width: 40%;
-  height: 50%;
-  border-radius: 5%;
+  width: 35rem;
+  height: 22.5rem;
+  border-radius: 2.5vh;
   padding: 2%;
 }
 #form {
   display: grid;
-  margin: auto;
-  width: 90%;
-  height: 85%;
-  grid-template-columns: repeat(2,50%);
-  grid-template-rows: repeat(2,15%) 70%;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2,47.5%);
+  grid-template-rows: repeat(2,15%) 60% 10%;
   column-gap: 5%;
   row-gap: 5%;
 }
@@ -143,9 +231,34 @@ h1 {
   grid-row: 3;
 }
 .formInput {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
   border: unset;
   border-radius: 15px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.25rem;
+  padding: .5% 4%;
 }
+.demiInput {
+  padding: .5% 8%;
+}
+#formButton {
+  position: relative;
+  grid-row: 4;
+  background-color: rgba(0,0,0,0);
+  border: 0;
+  top: -5vh;
+  grid-column: 1/3;
+}
+#formButton img {
+  width: 5rem;
+  height: auto;
+}
+#formButton:hover {
+  transform: scale(1.3);
+}
+
 
 /*Footer*/
 
@@ -163,21 +276,25 @@ h1 {
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 3px #f7f7f7;
+    text-shadow: 0 0 3px #fff;
+    text-shadow: 0 0 4px #fff;
+    text-shadow: 0 0 5px #fff;
   }
   to {
-    text-shadow: 0 0 4px #fff;
+    text-shadow: 0 0 4px #f7f7f7;
+    text-shadow: 0 0 5px #f7f7f7;
+    text-shadow: 0 0 6px #f7f7f7;
   }
 }
 
 #stats {
   position: fixed;
-  display: grid;
-  grid-template-columns: 15% 35% 15% 35%;
+  grid-template-columns: 16% 34% 16% 34%;
   font-size: 2rem;
   right: 0;
   bottom: 1vh;
   width: 23vw;
+  display: grid;
 }
 #stats label:nth-child(4) {
   color: white;
@@ -209,7 +326,27 @@ h1 {
     
 }
 
-
+#lightSwitch {
+  position: fixed;
+  background-color: rgba(0,0,0,0);
+  border:0;
+  width: 7vw;
+  height: 7vw;
+  bottom: 25vh;
+  left: 5vh;
+  z-index: 1001;
+}
+#lightSwitch:hover {
+  transform: scale(1.3);
+}
+.switchOn {
+  background-image: url("http://localhost/portfolio/images/btn-off.svg");
+  background-repeat: no-repeat;
+}
+.switchOff {
+  background-image: url("http://localhost/portfolio/images/btn-on.svg");
+  background-repeat: no-repeat;
+}
 /*Animation texte accueil*/
 @keyframes scale {
     100% {

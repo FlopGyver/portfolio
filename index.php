@@ -14,6 +14,10 @@
 <body>
 
 <!--Background-->   
+    <div id="lightsOff" class="lightOff">
+        <label id="turnOn">Turn on the light !</label>
+        <img id="arrow" src="./images/btn-accueil-scroll.svg">
+    </div>
     <img id="mountains" src="./images/mountains2.svg" alt="mountains">
     <div id="sun"><img id="sunImg" src="./images/sun.svg" alt="sun"></div>
 
@@ -46,7 +50,7 @@
                 <span>je</span>
                 <span>suis</span>
                 <span>Florian</span>
-                <span id="spanMauve">VALLET</span>
+                <span class="spanMauve purpleGlow">VALLET</span>
                 <br>
                 <span>Je</span>
                 <span>suis</span>
@@ -59,25 +63,52 @@
     </section>
 <!--Section de la page des formations-->
     <section id="formationSec" class="pageSections">
-        <h1>FORMATIONS</h1>
+        <h1 class="glow">FORMATIONS</h1>
+        <div id="panesForm">
+            <div id="paneBac" class="paneFormation">
+                <h2><span class="spanMauve purpleGlow">Bac</span>calauréat <span class="spanMauve purpleGlow">Pro</span>fessionnel</h2>
+                <label>Étude et définition de produits industriels </label><br>
+                <label>2013 - 2015 <span class="spanMauve purpleGlow">Saint-Étienne</span></label><br>
+                <label>Lycée Etienne Mimard </label>
+            </div>
+            <div id="paneBts" class="paneFormation">
+                <h2><span class="spanMauve purpleGlow">B</span>revet de <span class="spanMauve purpleGlow">T</span>echnicien <span class="spanMauve purpleGlow">S</span>upérieur</h2>
+                <label>Systèmes Numériques option Informatique et réseaux<br>Mention <span class="spanMauve">Très Bien</span></label><br>
+                <label>2019 - 2021 <span class="spanMauve purpleGlow">Saint-Étienne</span></label><br>
+                <label>IRUP - Formations supérieurs par alternances </label>    
+            </div>
+            <div id="paneLicence" class="paneFormation">
+                <h2><span class="spanMauve purpleGlow">Licence Pro</span>fessionnelle</h2>
+                <label>Animateur des Technologies de l'Information et de l'Internet</label><br>
+                <label>2021 - 2022 <span class="spanMauve purpleGlow">Saint-Étienne</span></label><br>
+                <label>Institut universitaire de technologie</label>
+            </div>
     </section>
 <!--Section de la page des experiences-->
     <section id="experiencesSec" class="pageSections">
-        <h1>ÉXPERIENCES</h1>
+        <h1 class="glow">ÉXPERIENCES</h1>
     </section>
 <!--Section de la page des realisations-->
     <section id="realisationSec" class="pageSections">
-        <h1>RÉALISATIONS</h1>
+        <h1 class="glow">RÉALISATIONS</h1>
     </section>
 <!--Section de la page de contact-->
     <section id="contactSec" class="pageSections">
-        <h1>CONTACT</h1>
+        <h1 class="glow">CONTACT</h1>
+        <div id="textContactSec">
+            <label>Une question ou envie de travailler ensemble ?</label><br><br>
+            <label>Vous pouvez me contacter par mail à</label><br><br>
+            <label class="spanMauve purpleGlow">florian.vallet@outlook.com</label><br><br>
+            <label>ou directement via le formulaire.</label>
+        </div>
+
         <div id="formulaire">
             <form id="form" method="get" action="send.php">
-                <input class="formInput" id="nomPrenom" name="nomPrenom">
-                <input class="formInput" id="mail" name="mail">
-                <input class="formInput" id="tel" name="tel">
-                <input class="formInput" id="message" name="message">
+                <input placeholder="Nom & Prénom" type="text" class="formInput" id="nomPrenom" name="nomPrenom" required>
+                <input placeholder="Email" type="email" class="formInput demiInput" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                <input placeholder="Téléphone" type="tel" class="formInput demiInput" id="tel" name="tel" pattern="[0-9]{10}" maxlength="10" required>
+                <textarea placeholder="Message..." type="text" class="formInput" id="message" name="message" required></textarea>
+                <button id="formButton"><img src="./images/btn-send.svg"></button>
             </form>
         </div>
     </section>
@@ -89,6 +120,9 @@
         </div>
         <div id="stats"></div>
     </section>
+
+    <button type="checkbox" id="lightSwitch" class="switchOff"></button>
+
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
