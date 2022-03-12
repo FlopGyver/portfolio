@@ -1,4 +1,6 @@
 $(function() {
+
+    //Compteur de stats de cafés (boisson officiel du développeur depuis 1950) et nuits blanches
     let wn = 3;
     let coffee = 257;
 
