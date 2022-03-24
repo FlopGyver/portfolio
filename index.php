@@ -67,26 +67,60 @@
         <div id="panesForm">
             <div id="paneBac" class="paneFormation">
                 <h2><span class="spanMauve purpleGlow">Bac</span>calauréat <span class="spanMauve purpleGlow">Pro</span>fessionnel</h2>
-                <label>Étude et définition de produits industriels </label><br>
-                <label>2013 - 2015 <span class="spanMauve purpleGlow">Saint-Étienne</span></label><br>
+                <label>Étude et définition de produits industriels </label>
+                <label>2013 - 2015 <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
                 <label>Lycée Etienne Mimard </label>
             </div>
             <div id="paneBts" class="paneFormation">
                 <h2><span class="spanMauve purpleGlow">B</span>revet de <span class="spanMauve purpleGlow">T</span>echnicien <span class="spanMauve purpleGlow">S</span>upérieur</h2>
-                <label>Systèmes Numériques option Informatique et réseaux<br>Mention <span class="spanMauve">Très Bien</span></label><br>
-                <label>2019 - 2021 <span class="spanMauve purpleGlow">Saint-Étienne</span></label><br>
+                <label>Systèmes Numériques option Informatique et réseaux<br>Mention <span class="spanMauve">Très Bien</span></label>
+                <label>2019 - 2021 <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
                 <label>IRUP - Formations supérieurs par alternances </label>    
             </div>
             <div id="paneLicence" class="paneFormation">
                 <h2><span class="spanMauve purpleGlow">Licence Pro</span>fessionnelle</h2>
-                <label>Animateur des Technologies de l'Information et de l'Internet</label><br>
-                <label>2021 - 2022 <span class="spanMauve purpleGlow">Saint-Étienne</span></label><br>
+                <label>Animateur des Technologies de l'Information et de l'Internet</label>
+                <label>2021 - 2022 <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
                 <label>Institut universitaire de technologie</label>
             </div>
+        </div>  
     </section>
 <!--Section de la page des experiences-->
     <section id="experiencesSec" class="pageSections">
         <h1 class="glow">ÉXPERIENCES</h1>
+        <div id="panesExp">
+            <div id="paneDe" class="paneExperience">
+                <h2 class="nomPoste">Dessinateur <span class="spanMauve purpleGlow">d'études</span></h2>
+                <label class="dateExp">Novembre 2015 à Août 2016</label>
+                <label class="lieuExp"><span class="spanMauve purpleGlow">Hexadrone</span> Saint-Didier-en-Velay, France</label>
+                <!--label class="descriExp"></label-->
+            </div>
+            <div id="paneInter" class="paneExperience">
+                <h2 class="nomPoste"><span class="spanMauve purpleGlow">Interimaire</span></h2>
+                <label class="dateExp">Septembre 2016 à Septembre 2018</label>
+                <label class="lieuExp"><span class="spanMauve purpleGlow" style="font-size: 1rem;">MVPE, Burlet, Meuble Bariole, Meuble Fuvel, CallWin, Laurent Automobile</span> Loire/Haute-Loire</label>
+                <!--label class="descriExp">Ouvrier polyvalent, Téléopérateur, Chauffeur/Livreur</label-->
+            </div>
+            <div id="paneTi" class="paneExperience">
+                <h2 class="nomPoste">Technicien <span class="spanMauve purpleGlow">Informatique</span></h2>
+                <label class="dateExp">Novembre 2019 à Juillet 2021</label>
+                <label class="lieuExp">Institut Supérieur des Techniques de la Performance (<span class="spanMauve purpleGlow">ISTP</span>) Saint-Étienne, France</label>
+                <!--label class="descriExp">Réalisé en apprentissage dans le cadre du BTS Système Numériques en alternance.</label-->
+            </div>
+            <div id="paneDev" class="paneExperience">
+                <h2 class="nomPoste">Développeur <span class="spanMauve purpleGlow">full-stack</span></h2>
+                <label class="dateExp">Depuis Août 2021</label>
+                <label class="lieuExp">Institut Supérieur des Techniques de la Performance (<span class="spanMauve purpleGlow">ISTP</span>) Saint-Étienne, France</label>
+                <!--label class="descriExp"></label-->
+            </div>
+
+            
+            <div id="blurBack">
+                <div id="infoTi">
+                        
+                </div>
+            </div>
+        </div>
     </section>
 <!--Section de la page des realisations-->
     <section id="realisationSec" class="pageSections">
