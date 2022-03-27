@@ -91,33 +91,131 @@ $(function() {
     })
 
     //Ouverture panneaux expériences 
-    let display = true;
-    $("#paneTi").click(function(){
+
+    //Dessinateur etudes
+    let displayDe = true;
+    $("#paneDe").click(function(){
         
 
-        if(display){
+        if(displayDe){
             $("#blurBack").css("display", "initial");
-            $("#infoTi").css("display", "block");
-            display = false;
+            $("#infoDe").css("display", "block");
+            displayDe = false;
         }
         else {
-            $("#blurBack").css("display", "none");
-            $("#infoTi").css("display", "none");
-            display=true;
+            $("#blurBack").css("visibility", "hidden");
+            $("#infoDe").css("visibility", "hidden");
+            displayDe=true;
         }
     })
 
-    $("#infoTi").click(function(){
+    $("#btnCrossDe").click(function(){
 
-        if(display){
+        if(displayDe){
+            $("#blurBack").css("display", "initial");
+            $("#infoDe").css("display", "block");
+            displayDe = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoDe").css("display", "none");
+            displayDe=true;
+        }
+        
+    })
+
+    //Interimaire
+    let displayInter = true;
+    $("#paneInter").click(function(){
+        
+
+        if(displayInter){
+            $("#blurBack").css("display", "initial");
+            $("#infoInter").css("display", "block");
+            displayInter = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoInter").css("display", "none");
+            displayInter=true;
+        }
+    })
+
+    $("#btnCrossInter").click(function(){
+
+        if(displayInter){
+            $("#blurBack").css("display", "initial");
+            $("#infoInter").css("display", "block");
+            displayInter = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoInter").css("display", "none");
+            displayInter=true;
+        }
+        
+    })
+
+    //Technicien informatique
+    let displayTi = true;
+    $("#paneTi").click(function(){
+        
+
+        if(displayTi){
             $("#blurBack").css("display", "initial");
             $("#infoTi").css("display", "block");
-            display = false;
+            displayTi = false;
         }
         else {
             $("#blurBack").css("display", "none");
             $("#infoTi").css("display", "none");
-            display=true;
+            displayTi=true;
+        }
+    })
+
+    $("#btnCrossTi").click(function(){
+
+        if(displayTi){
+            $("#blurBack").css("display", "initial");
+            $("#infoTi").css("display", "block");
+            displayTi = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoTi").css("display", "none");
+            displayTi=true;
+        }
+        
+    })
+
+    //Développeur
+    let displayDev = true;
+    $("#paneDev").click(function(){
+        
+
+        if(displayDev){
+            $("#blurBack").css("display", "initial");
+            $("#infoDev").css("display", "block");
+            displayDev = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoDev").css("display", "none");
+            displayDev=true;
+        }
+    })
+
+    $("#btnCrossDev").click(function(){
+
+        if(displayDev){
+            $("#blurBack").css("display", "initial");
+            $("#infoDev").css("display", "block");
+            displayDev = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoDev").css("display", "none");
+            displayDev=true;
         }
         
     })

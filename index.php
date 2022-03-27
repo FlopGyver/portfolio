@@ -116,8 +116,17 @@
 
             
             <div id="blurBack">
-                <div id="infoTi">
-                        
+                <div id="infoDe" class="infosPane">
+                    <img class="btnCrossPane" id="btnCrossDe" src="./images/btn-cross.svg">
+                </div>
+                <div id="infoInter" class="infosPane">
+                    <img class="btnCrossPane" id="btnCrossInter" src="./images/btn-cross.svg">
+                </div>
+                <div id="infoTi" class="infosPane">
+                    <img class="btnCrossPane" id="btnCrossTi" src="./images/btn-cross.svg">
+                </div>
+                <div id="infoDev" class="infosPane">
+                    <img class="btnCrossPane" id="btnCrossDev" src="./images/btn-cross.svg">
                 </div>
             </div>
         </div>

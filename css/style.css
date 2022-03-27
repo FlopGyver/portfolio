@@ -293,7 +293,7 @@ h2 {
   position: relative;
   display: none;
 }
-#infoTi {
+.infosPane {
   z-index: 201;
   border-radius: 2.5vh;
   width: 40vw;
@@ -306,7 +306,17 @@ h2 {
   top: 32.5%;
   background-color: rgba(0,0,0,0.8);
   display: none;
+  
 }
+.btnCrossPane {
+  left: 52%;
+  position: relative;
+  top: -30%;
+}
+.btnCrossPane:hover {
+  transform: scale(1.2);
+}
+
 /*Section Contact*/
 
 #textContactSec {
