@@ -90,6 +90,38 @@ $(function() {
         $("#imgContact").css("transform", "scale(1.3)");
     })
 
+    //Ouverture panneaux expériences 
+    let display = true;
+    $("#paneTi").click(function(){
+        
+
+        if(display){
+            $("#blurBack").css("display", "initial");
+            $("#infoTi").css("display", "block");
+            display = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoTi").css("display", "none");
+            display=true;
+        }
+    })
+
+    $("#infoTi").click(function(){
+
+        if(display){
+            $("#blurBack").css("display", "initial");
+            $("#infoTi").css("display", "block");
+            display = false;
+        }
+        else {
+            $("#blurBack").css("display", "none");
+            $("#infoTi").css("display", "none");
+            display=true;
+        }
+        
+    })
+
     //Light switch
 
     $("#lightSwitch").click(function() {
