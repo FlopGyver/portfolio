@@ -141,7 +141,7 @@
         <div id="textContactSec">
             <label>Une question ou envie de travailler ensemble ?</label><br><br>
             <label>Vous pouvez me contacter par mail à</label><br><br>
-            <label class="spanMauve purpleGlow">florian.vallet@outlook.com</label><br><br>
+            <label class="spanMauve purpleGlow"><a class="link" href="mailto:florian.vallet@outlook.com" style="text-decoration: none; color: inherit;">florian.vallet@outlook.com</a></label><br><br>
             <label>ou directement via le formulaire.</label>
         </div>
 
@@ -159,7 +159,7 @@
     <section id="footerSec">
         <div id="mentionLeg">
             <label>| © <?php echo date("Y");?> Florian Vallet |</label>
-            <label>| Tous droits réservés | <a class="glow">Mentions légales</a> |</label>
+            <label>| Tous droits réservés | <a class="glow" href="./mentions-legales.html" style="text-decoration: none;">Mentions légales</a> |</label>
         </div>
         <div id="stats"></div>
     </section>
