@@ -95,12 +95,33 @@ $(function() {
 
     $("#btnQsj").click(function(){
         $("#scrollAcc").animate({scrollTop:0}, '500', 'swing')
+        $("#btnQsj").css("transform", "scale(1.3)");
+        $("#btnComp").css("transform", "scale(1)");
+        $("#btnPass").css("transform", "scale(1)");
+
+        $("#btnQsj").css("background-color", "rgba(0, 0, 0, 0.8)");
+        $("#btnComp").css("background-color", "rgba(0, 0, 0, 0.4)");
+        $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.4)");
     })
     $("#btnComp").click(function(){
-        $("#scrollAcc").animate({scrollTop: 550,behavior: 'smooth'}, '500', 'swing')
+        $("#scrollAcc").animate({scrollTop: 550,behavior: 'smooth'}, '500', 'swing');
+        $("#btnQsj").css("transform", "scale(1)");
+        $("#btnComp").css("transform", "scale(1.3)");
+        $("#btnPass").css("transform", "scale(1)");
+
+        $("#btnQsj").css("background-color", "rgba(0, 0, 0, 0.4)");
+        $("#btnComp").css("background-color", "rgba(0, 0, 0, 0.8)");
+        $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.4)");
     })
     $("#btnPass").click(function(){
-        $("#scrollAcc").animate({scrollTop:1200}, '500', 'swing')
+        $("#scrollAcc").animate({scrollTop:1200}, '500', 'swing');
+        $("#btnQsj").css("transform", "scale(1)");
+        $("#btnComp").css("transform", "scale(1)");
+        $("#btnPass").css("transform", "scale(1.3)");
+
+        $("#btnQsj").css("background-color", "rgba(0, 0, 0, 0.4)");
+        $("#btnComp").css("background-color", "rgba(0, 0, 0, 0.4)");
+        $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.8)");
     })
 
 
@@ -270,5 +291,11 @@ $(function() {
       });
       $("#lightSwitch").click();
       $("#imgAccueil").click();
+      $("#lightSwitch").click(function(){
+          $("#qsj").css("margin-top", "0");
+          $("#btnQsj").css("left", "6em");
+          $("#btnComp").css("left", "6em");
+          $("#btnPass").css("left", "6em");
+      })
 
 })

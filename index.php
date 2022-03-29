@@ -60,16 +60,44 @@
             </label> 
         </div>
         <div id="selecteurAcc" >
-            <button id="btnQsj" class="btnAcc">Qui suis-je ?</button>
-            <button id="btnComp" class="btnAcc">Compétences</button>
-            <button id="btnPass" class="btnAcc">Mes passions</button>
+            <button id="btnQsj" class="btnAcc"><label>Qui suis-je ?</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
+            <button id="btnComp" class="btnAcc"><label>Compétences</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
+            <button id="btnPass" class="btnAcc"><label>Mes passions</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
         </div>
         <div id="scrollAcc">
             <div id="qsj" class="paneAcc">
                     qui suis je
             </div>
             <div id="competences" class="paneAcc">
-                compétences
+                <div>
+                    <img class="logoComp" src="./images/Icon awesome-html5.svg">
+                    <img class="logoComp" src="./images/Icon awesome-css3-alt.svg">
+                    <span></span>
+                </div>
+                <div>
+                    <img class="logoComp" src="./images/Icon simple-javascript.svg">
+                    <img class="logoComp" src="./images/Icon simple-jquery.svg">
+                    <img class="logoComp" src="./images/Icon awesome-vuejs.svg">
+                    <span></span>
+                </div>
+                <div>
+                    <img class="logoComp" src="./images/Icon simple-php.svg">
+                    <span></span>
+                </div>
+                <div>
+                    <img class="logoComp" src="./images/csharp-logo.svg">
+                    <img class="logoComp" src="./images/blazor-logo.svg">
+                    <span></span>
+                </div>
+                <div>
+                    <img class="logoComp" src="./images/c-logo.svg">
+                    <img class="logoComp" src="./images/cplus-logo.svg">
+                    <span></span>
+                </div>
+                <div>
+                    <img class="logoComp" src="./images/sql-logo.svg">
+                    <span></span>
+                </div>
             </div>
             <div id="passions" class="paneAcc">
                 passions
