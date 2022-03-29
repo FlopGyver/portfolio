@@ -38,12 +38,12 @@ body {
 
 h1 {
     color: white;
-    font-size: 6.5rem;
+    font-size: 5.5rem;
     font-family: 'Inconsolata', monospace;
 }
 h2 {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -318,26 +318,35 @@ h2 {
 }
 
 /*Section Contact*/
+#contactSec h1 {
+  grid-column: 1;
+  grid-row: 1;
+  left: 2vw;
+  position: relative;
+}
 
 #textContactSec {
   color: #fff;
   font-size: 1.5rem;
   width: 40vw;
-  left: 0.5vw;
+  left: 2.5vw;
   position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  top: 20vh;
 }
 #textContactSec label:nth-child(1) {
   font-size: 2rem;
 }
 #formulaire {
-  position: absolute;
-  left: 447.5vw;
-  top:7vh;
   background-color: rgba(0,0,0,0.4);
-  width: 35rem;
-  height: 22.5rem;
-  border-radius: 2.5vh;
-  padding: 2%;
+  width: 35vw;
+  height: 35vh;
+  border-radius: 1vw;
+  padding: 3%;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
 }
 #form {
   display: grid;
@@ -369,7 +378,7 @@ h2 {
   height: 100%;
   box-sizing: border-box;
   border: unset;
-  border-radius: 15px;
+  border-radius: 1vw;
   font-family: 'Inconsolata', monospace;
   font-size: 1.25rem;
   padding: .5% 4%;
@@ -445,8 +454,14 @@ h2 {
 
 .pageSections {
     min-width: 96%;
-    height: 96%;
+    height: 80%;
     padding: 2%;
+} 
+
+#contactSec {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%;
 }
 
 #footerSec {
