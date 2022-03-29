@@ -57,9 +57,24 @@
                 <span>développeur</span>
                 <span>web</span>
                 <span>full-stack</span>   
-            </label>
+            </label> 
         </div>
-
+        <div id="selecteurAcc" >
+            <button id="btnQsj" class="btnAcc">Qui suis-je ?</button>
+            <button id="btnComp" class="btnAcc">Compétences</button>
+            <button id="btnPass" class="btnAcc">Mes passions</button>
+        </div>
+        <div id="scrollAcc">
+            <div id="qsj" class="paneAcc">
+                    qui suis je
+            </div>
+            <div id="competences" class="paneAcc">
+                compétences
+            </div>
+            <div id="passions" class="paneAcc">
+                passions
+            </div>
+        </div>
     </section>
 <!--Section de la page des formations-->
     <section id="formationSec" class="pageSections">
@@ -70,18 +85,21 @@
                 <label>Étude et définition de produits industriels </label>
                 <label>2013 - 2015 <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
                 <label>Lycée Etienne Mimard </label>
+                <img class="statut" src="./images/validé.svg">
             </div>
             <div id="paneBts" class="paneFormation">
                 <h2><span class="spanMauve purpleGlow">B</span>revet de <span class="spanMauve purpleGlow">T</span>echnicien <span class="spanMauve purpleGlow">S</span>upérieur</h2>
                 <label>Systèmes Numériques option Informatique et réseaux<br>Mention <span class="spanMauve">Très Bien</span></label>
                 <label>2019 - 2021 <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
-                <label>IRUP - Formations supérieurs par alternances </label>    
+                <label>IRUP - Formations supérieurs par alternances </label>
+                <img class="statut" src="./images/validé.svg">    
             </div>
             <div id="paneLicence" class="paneFormation">
                 <h2><span class="spanMauve purpleGlow">Licence Pro</span>fessionnelle</h2>
                 <label>Animateur des Technologies de l'Information et de l'Internet</label>
                 <label>2021 - 2022 <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
                 <label>Institut universitaire de technologie</label>
+                <img class="statut" src="./images/en_cours.svg">
             </div>
         </div>  
     </section>

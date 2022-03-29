@@ -90,6 +90,20 @@ $(function() {
         $("#imgContact").css("transform", "scale(1.3)");
     })
 
+
+    //Selection dans la section de l'Accueil
+
+    $("#btnQsj").click(function(){
+        $("#scrollAcc").animate({scrollTop:0}, '500', 'swing')
+    })
+    $("#btnComp").click(function(){
+        $("#scrollAcc").animate({scrollTop: 550,behavior: 'smooth'}, '500', 'swing')
+    })
+    $("#btnPass").click(function(){
+        $("#scrollAcc").animate({scrollTop:1200}, '500', 'swing')
+    })
+
+
     //Ouverture panneaux expériences 
 
     //Dessinateur etudes

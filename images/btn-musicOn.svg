@@ -1,0 +1,6 @@
+<svg id="btn-musicOn" xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+  <circle id="Ellipse_8" data-name="Ellipse 8" cx="39" cy="39" r="39" fill="#98669a"/>
+  <ellipse id="Ellipse_14" data-name="Ellipse 14" cx="10.5" cy="7" rx="10.5" ry="7" transform="matrix(0.883, -0.469, 0.469, 0.883, 19.124, 55.454)" fill="#fff"/>
+  <path id="Tracé_415" data-name="Tracé 415" d="M2.246,0A2.383,2.383,0,0,1,4.492,2.5l.327,35.373A2.35,2.35,0,0,1,2.246,40,2.383,2.383,0,0,1,0,37.5V2.5A2.383,2.383,0,0,1,2.246,0Z" transform="translate(36.677 16)" fill="#fff"/>
+  <rect id="Rectangle_454" data-name="Rectangle 454" width="5" height="19" rx="2.5" transform="matrix(0.695, -0.719, 0.719, 0.695, 35.723, 18.211)" fill="#fff"/>
+</svg>

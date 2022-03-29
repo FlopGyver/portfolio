@@ -1,0 +1,19 @@
+<svg id="en_cours" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="45" height="10" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_8" data-name="Ellipse 8" cx="39" cy="39" r="39" fill="#98669a"/>
+  <g id="Grille_de_répétition_5" data-name="Grille de répétition 5" transform="translate(17 34)" clip-path="url(#clip-path)">
+    <g transform="translate(-476 -1173)">
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="5" cy="5" r="5" transform="translate(476 1173)" fill="#fff"/>
+    </g>
+    <g transform="translate(-459 -1173)">
+      <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="5" cy="5" r="5" transform="translate(476 1173)" fill="#fff"/>
+    </g>
+    <g transform="translate(-442 -1173)">
+      <circle id="Ellipse_9-3" data-name="Ellipse 9" cx="5" cy="5" r="5" transform="translate(476 1173)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
