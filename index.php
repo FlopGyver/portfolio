@@ -98,7 +98,7 @@
             <div id="paneInter" class="paneExperience">
                 <h2 class="nomPoste"><span class="spanMauve purpleGlow">Interimaire</span></h2>
                 <label class="dateExp">Septembre 2016 à Septembre 2018</label>
-                <label class="lieuExp"><span class="spanMauve purpleGlow" style="font-size: 1rem;">MVPE, Burlet, Meuble Bariole, Meuble Fuvel, CallWin, Laurent Automobile</span> Loire/Haute-Loire</label>
+                <label class="lieuExp"><span class="spanMauve purpleGlow" style="font-size: 0.8em;">MVPE, Burlet, Meuble Bariole, Meuble Fuvel, CallWin, Laurent Automobile</span> Loire/Haute-Loire</label>
                 <!--label class="descriExp">Ouvrier polyvalent, Téléopérateur, Chauffeur/Livreur</label-->
             </div>
             <div id="paneTi" class="paneExperience">
