@@ -67,8 +67,21 @@
         <div id="scrollAcc">
             <div id="qsj" class="paneAcc">
                 <img id="avatar" src="./images/avatar.jpg">
-                <div style="grid-row: 1;">J'ai 24ans</div>
-                <div style="grid-row: 2;">Je suis de <span class="spanMauve purpleGlow">Saint-Étienne</span></div>
+                <label style="grid-row: 1;">J'ai 24ans</label>
+                <label style="grid-row: 2;">Je suis de <span class="spanMauve purpleGlow">Saint-Étienne</span></label>
+                
+                <div id="pictos">
+                    <img id="pictoAmbitieux" src="./images/picto-ambitieux.svg">
+                    <img id="pictoCurieux" src="./images/picto-curieux.svg">
+                    <img id="pictoPolyvalent" src="./images/picto-polyvalent.svg">
+                    <img id="pictoCreatif" src="./images/picto-creatif.svg">
+                    <img id="pictoMailons" src="./images/picto-maillons.svg">
+
+                    <div id="labelPicto1" class="labelPictos">Ambitieux</div>
+                    <div id="labelPicto2" class="labelPictos">Curieux</div>
+                    <div id="labelPicto3" class="labelPictos">Polyvalent</div>
+                    <div id="labelPicto4" class="labelPictos">Créatif</div>
+                </div>
             </div>
 
             <div id="competences" class="paneAcc">
@@ -109,7 +122,7 @@
             </div>
 
             <div id="passions" class="paneAcc">
-                passions
+                <img id="passionSvg" src="./images/passion.svg">
             </div>
         </div>
     </section>
@@ -154,13 +167,11 @@
                 <h2 class="nomPoste"><span class="spanMauve purpleGlow">Interimaire</span></h2>
                 <label class="dateExp">Septembre 2016 à Septembre 2018</label>
                 <label class="lieuExp"><span class="spanMauve purpleGlow" style="font-size: 0.8em;">MVPE, Burlet, Meuble Bariole, Meuble Fuvel, CallWin, Laurent Automobile</span> Loire/Haute-Loire</label>
-                <!--label class="descriExp">Ouvrier polyvalent, Téléopérateur, Chauffeur/Livreur</label-->
             </div>
             <div id="paneTi" class="paneExperience">
                 <h2 class="nomPoste">Technicien <span class="spanMauve purpleGlow">Informatique</span></h2>
                 <label class="dateExp">Novembre 2019 à Juillet 2021</label>
                 <label class="lieuExp">Institut Supérieur des Techniques de la Performance (<span class="spanMauve purpleGlow">ISTP</span>) Saint-Étienne, France</label>
-                <!--label class="descriExp">Réalisé en apprentissage dans le cadre du BTS Système Numériques en alternance.</label-->
             </div>
             <div id="paneDev" class="paneExperience">
                 <h2 class="nomPoste">Développeur <span class="spanMauve purpleGlow">full-stack</span></h2>
@@ -173,15 +184,19 @@
             <div id="blurBack">
                 <div id="infoDe" class="infosPane">
                     <img class="btnCrossPane" id="btnCrossDe" src="./images/btn-cross.svg">
+                    <label class="descriExp">Conception, Assemblage et Inovation de drones civils et professionnels</label>
                 </div>
                 <div id="infoInter" class="infosPane">
                     <img class="btnCrossPane" id="btnCrossInter" src="./images/btn-cross.svg">
+                    <label class="descriExp">Ouvrier polyvalent, Téléopérateur, Chauffeur/Livreur</label>
                 </div>
                 <div id="infoTi" class="infosPane">
                     <img class="btnCrossPane" id="btnCrossTi" src="./images/btn-cross.svg">
+                    <label class="descriExp">Réalisé en apprentissage dans le cadre du BTS Système Numériques en alternance.</label>
                 </div>
                 <div id="infoDev" class="infosPane">
                     <img class="btnCrossPane" id="btnCrossDev" src="./images/btn-cross.svg">
+                    <label class="descriExp">Réalisé en apprentissage dans le cadre de la Licence ATII en alternance.</label>
                 </div>
             </div>
         </div>
@@ -189,7 +204,24 @@
 <!--Section de la page des realisations-->
     <section id="realisationSec" class="pageSections">
         <h1 class="glow">RÉALISATIONS</h1>
+        <div id="realisationPanes">
+            <a id="reaPortfolio" class="reaPanes" href="https://github.com/FlopGyver/portfolio">
+                <div id="reaBack1"></div>
+                <label>Portfolio</label>
+            </a>
+
+            <a id="reaEnt" class="reaPanes" href="https://github.com/istp-irup/ENT_BlazorAzureAd">
+                <div id="reaBack2"></div>
+                <label>ENT (ISTP)</label>
+            </a>
+
+            <a id="reaAvenir" class="reaPanes" href="https://labeilledescouleurs.com/">
+                <div id="reaBack3"></div>
+                <label>L'abeille des couleurs</label>
+            </a>
+        </div>
     </section>
+
 <!--Section de la page de contact-->
     <section id="contactSec" class="pageSections">
         <h1 class="glow">CONTACT</h1>

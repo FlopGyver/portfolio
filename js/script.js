@@ -130,6 +130,20 @@ $(function() {
         $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.8)");
     })
 
+    $("#pictoAmbitieux").click(function(){
+        $("#labelPicto1").css("opacity", "1");
+    })
+    $("#pictoCurieux").click(function(){
+        $("#labelPicto2").css("opacity", "1");
+    })
+    $("#pictoPolyvalent").click(function(){
+        $("#labelPicto3").css("opacity", "1");
+    })
+    $("#pictoCreatif").click(function(){
+        $("#labelPicto4").css("opacity", "1");
+    })
+    
+
 
     //Ouverture panneaux expériences 
 
@@ -140,12 +154,12 @@ $(function() {
 
         if(displayDe){
             $("#blurBack").css("display", "initial");
-            $("#infoDe").css("display", "block");
+            $("#infoDe").css("display", "grid");
             displayDe = false;
         }
         else {
-            $("#blurBack").css("visibility", "hidden");
-            $("#infoDe").css("visibility", "hidden");
+            $("#blurBack").css("display", "none");
+            $("#infoDe").css("display", "none");
             displayDe=true;
         }
     })
@@ -154,7 +168,7 @@ $(function() {
 
         if(displayDe){
             $("#blurBack").css("display", "initial");
-            $("#infoDe").css("display", "block");
+            $("#infoDe").css("display", "grid");
             displayDe = false;
         }
         else {
@@ -172,7 +186,7 @@ $(function() {
 
         if(displayInter){
             $("#blurBack").css("display", "initial");
-            $("#infoInter").css("display", "block");
+            $("#infoInter").css("display", "grid");
             displayInter = false;
         }
         else {
@@ -186,7 +200,7 @@ $(function() {
 
         if(displayInter){
             $("#blurBack").css("display", "initial");
-            $("#infoInter").css("display", "block");
+            $("#infoInter").css("display", "grid");
             displayInter = false;
         }
         else {
@@ -204,7 +218,7 @@ $(function() {
 
         if(displayTi){
             $("#blurBack").css("display", "initial");
-            $("#infoTi").css("display", "block");
+            $("#infoTi").css("display", "grid");
             displayTi = false;
         }
         else {
@@ -218,7 +232,7 @@ $(function() {
 
         if(displayTi){
             $("#blurBack").css("display", "initial");
-            $("#infoTi").css("display", "block");
+            $("#infoTi").css("display", "grid");
             displayTi = false;
         }
         else {
@@ -236,7 +250,7 @@ $(function() {
 
         if(displayDev){
             $("#blurBack").css("display", "initial");
-            $("#infoDev").css("display", "block");
+            $("#infoDev").css("display", "grid");
             displayDev = false;
         }
         else {
@@ -250,7 +264,7 @@ $(function() {
 
         if(displayDev){
             $("#blurBack").css("display", "initial");
-            $("#infoDev").css("display", "block");
+            $("#infoDev").css("display", "grid");
             displayDev = false;
         }
         else {

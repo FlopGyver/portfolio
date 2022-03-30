@@ -1,0 +1,9 @@
+<svg id="picto-polyvalent" xmlns="http://www.w3.org/2000/svg" width="159" height="173" viewBox="0 0 159 173">
+  <g id="Groupe_209" data-name="Groupe 209" transform="translate(-1631 -1260)">
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="79.5" cy="79.5" r="79.5" transform="translate(1631 1260)" fill="#98669a"/>
+    <rect id="Rectangle_475" data-name="Rectangle 475" width="29.043" height="92.936" rx="5" transform="translate(1740.606 1314.365) rotate(48)" fill="#fff"/>
+    <path id="Tracé_421" data-name="Tracé 421" d="M.171,25.586C.554,7.765,17.873,0,17.873,0V92.936L.171,73.42S-.213,43.406.171,25.586Z" transform="translate(1660.961 1305.064) rotate(-65)" fill="#fff"/>
+    <path id="Union_22" data-name="Union 22" d="M8.26,20.33a1,1,0,0,1-1-1V13.07H1a1,1,0,0,1-1-1V8.261a1,1,0,0,1,1-1H7.26V1a1,1,0,0,1,1-1h3.809a1,1,0,0,1,1,1v6.26H19.33a1,1,0,0,1,1,1V12.07a1,1,0,0,1-1,1H13.069v6.26a1,1,0,0,1-1,1Z" transform="translate(1697.119 1359.383) rotate(48)" fill="#98669a"/>
+  </g>
+  <path id="Polygone_19" data-name="Polygone 19" d="M16.5,0,33,28H0Z" transform="translate(96 173) rotate(180)" fill="#98669a"/>
+</svg>

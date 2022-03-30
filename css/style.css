@@ -245,11 +245,11 @@ h2 {
   grid-template-columns: 40% 60%;
   
 }
-#qsj div {
+#qsj label {
   color: #f7f7f7;
   font-size: 2.5em;
-  grid-column: 2;
   text-align: left;
+  grid-column: 2;
 }
 #avatar {
   width: 15em;
@@ -260,6 +260,87 @@ h2 {
   margin: auto;
   -webkit-box-shadow: 0px -5px 50px -5px rgba(114, 57, 116, 0.61); 
     box-shadow: 0px -5px 50px -5px rgba(114,57,116,0.61);
+}
+
+#pictos {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+#pictos img {
+  width: 7em;
+  height: auto;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+  z-index: 2;
+}
+
+#pictos img:hover {
+  transform: scale(1.2);
+}
+#pictoAmbitieux {
+  grid-column: 1;
+  grid-row: 1;
+}
+#pictoCurieux {
+  grid-column: 2;
+  grid-row: 2;
+}
+#pictoPolyvalent {
+  grid-column: 3;
+  grid-row: 1;
+}
+#pictoCreatif {
+  grid-column: 4;
+  grid-row: 2;
+}
+#pictoMailons {
+  grid-column: 1/5;
+  grid-row: 1/3;
+  width: 32em !important;
+  z-index: 1 !important;
+  transform: scale(1) !important;
+}  
+
+.labelPictos {
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  opacity: 0;
+  transition: all .25s;
+}
+#labelPicto1 {
+  color: #98669a;
+  grid-column: 1;
+  grid-row: 2;
+  align-self: start;
+  top: 0.8em;
+}
+#labelPicto2 {
+  color: #ba9dbb;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  bottom:0.8em;
+}
+#labelPicto3 {
+  color: #98669a;
+  grid-column: 3;
+  grid-row: 2;
+  align-self: start;
+  top: 0.8em;
+}
+#labelPicto4 {
+  color: #ba9dbb;
+  grid-column: 4;
+  grid-row: 1;
+  align-self: end;
+  bottom:0.8em;
 }
 
 /*Partie langages*/
@@ -340,15 +421,21 @@ h2 {
 #progressInnerBar6 {
   width: 0;
   height: 100%;
-
   position: relative;
 }
 
+/*Partie des passions*/
 #passions {
   grid-column: 1;
   grid-row: 3;
+  padding: 2%;
 }
-
+#passionSvg {
+  width: 96%;
+  height: 96%;
+  grid-row: 1/5;
+  margin: auto;
+}
 .spanMauve {
     color: #d8bdda;/*#98669a*/
     font-weight: 700;
@@ -501,9 +588,9 @@ h2 {
 }
 #blurBack {
   backdrop-filter: blur(5px);
-  width: 94.5em;
+  width: 100vw;
   height: 125vh;
-  left: -20%;
+  left: -5%;
   bottom: 70%;
   z-index: 200;
   position: relative;
@@ -512,25 +599,104 @@ h2 {
 .infosPane {
   z-index: 201;
   border-radius: 2.5vh;
-  width: 40vw;
+  width: 30em;
   height: 20vh;
   text-align: center;
   font-size: 1.5rem;
   padding: 1.5%;
   margin: auto;
   position: relative;
-  top: 32.5%;
+  top: 37.5%;
   background-color: rgba(0,0,0,0.8);
   display: none;
-  
+  grid-template-columns: 97.5% 2.5%;
+  grid-template-rows: 100%;
+}
+.infosPane label {
+  grid-column: 1;
+  grid-row: 1;
 }
 .btnCrossPane {
-  left: 52%;
   position: relative;
   top: -30%;
+  grid-column: 2;
+  grid-row: 1;
 }
 .btnCrossPane:hover {
   transform: scale(1.2);
+}
+
+/*Section Réalisation*/
+
+#realisationPanes {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 100%;
+}
+.reaPanes {
+  width: 80%;
+  height: 50%;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 2em;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 65% 35%;
+  -webkit-box-shadow: 0px -5px 50px -5px rgba(0,0,0,0.61); 
+    box-shadow: 0px -5px 50px -5px rgba(0,0,0,0.61);
+}
+.reaPanes label{
+  color: #f7f7f7;
+  margin: auto;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  grid-row: 2;
+  text-decoration: none;
+}
+.reaPanes:hover {
+  transform: scale(1.3);
+}
+#reaPortfolio {
+  grid-column: 1;
+}
+#reaBack1 {
+  height: 100%;
+    background-image: url(http://localhost/portfolio/images/portfolio.png);
+    background-size: 125%;
+    background-position: bottom;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    background-repeat: no-repeat;
+    background-color: #4b4b4b;
+}
+#reaBack2 {
+  background-image: url(http://localhost/portfolio/images/ENT.svg);
+  background-size: 100%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #4b4b4b;
+  height: 100%;
+}
+#reaBack3 {
+  background-image: url(http://localhost/portfolio/images/ADC.svg);
+  background-size: 100%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #4b4b4b;
+  height: 100%;
+}
+#reaEnt {
+  grid-column: 2;
+}
+#reaAvenir{
+  grid-column: 3;
 }
 
 /*Section Contact*/
