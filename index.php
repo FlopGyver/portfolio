@@ -61,44 +61,53 @@
         </div>
         <div id="selecteurAcc" >
             <button id="btnQsj" class="btnAcc"><label>Qui suis-je ?</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
-            <button id="btnComp" class="btnAcc"><label>Compétences</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
+            <button id="btnComp" class="btnAcc"><label>Langages</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
             <button id="btnPass" class="btnAcc"><label>Mes passions</label><img class="btnSelection" src="./images/btn-selection.svg"></button>
         </div>
         <div id="scrollAcc">
             <div id="qsj" class="paneAcc">
-                    qui suis je
+                <img id="avatar" src="./images/avatar.jpg">
+                <div style="grid-row: 1;">J'ai 24ans</div>
+                <div style="grid-row: 2;">Je suis de <span class="spanMauve purpleGlow">Saint-Étienne</span></div>
             </div>
+
             <div id="competences" class="paneAcc">
-                <div>
-                    <img class="logoComp" src="./images/Icon awesome-html5.svg">
-                    <img class="logoComp" src="./images/Icon awesome-css3-alt.svg">
-                    <span></span>
+                <div class="logoComp">
+                    <img src="./images/Icon awesome-html5.svg">
+                    <img src="./images/Icon awesome-css3-alt.svg">
                 </div>
-                <div>
-                    <img class="logoComp" src="./images/Icon simple-javascript.svg">
-                    <img class="logoComp" src="./images/Icon simple-jquery.svg">
-                    <img class="logoComp" src="./images/Icon awesome-vuejs.svg">
-                    <span></span>
+                <div id="progressBar1" class="progressBar"><div id="progressInnerBar1" class="progressInnerBar">HTML5 / CSS3</div></div>
+                
+                <div class="logoComp">
+                    <img src="./images/Icon simple-javascript.svg">
+                    <img src="./images/Icon simple-jquery.svg">
+                    <img src="./images/Icon awesome-vuejs.svg">
                 </div>
-                <div>
-                    <img class="logoComp" src="./images/Icon simple-php.svg">
-                    <span></span>
+                <div id="progressBar2" class="progressBar"><div id="progressInnerBar2" class="progressInnerBar">Javascript / Jquery / VueJS</div></div>
+                
+                <div class="logoComp">
+                    <img src="./images/Icon simple-php.svg">
                 </div>
-                <div>
-                    <img class="logoComp" src="./images/csharp-logo.svg">
-                    <img class="logoComp" src="./images/blazor-logo.svg">
-                    <span></span>
+                <div id="progressBar3" class="progressBar"><div id="progressInnerBar3" class="progressInnerBar">PHP</div></div>
+                
+                <div class="logoComp">
+                    <img src="./images/csharp-logo.svg">
+                    <img src="./images/blazor-logo.svg">
                 </div>
-                <div>
-                    <img class="logoComp" src="./images/c-logo.svg">
-                    <img class="logoComp" src="./images/cplus-logo.svg">
-                    <span></span>
+                <div id="progressBar4" class="progressBar"><div id="progressInnerBar4" class="progressInnerBar">C# / .NET / Blazor</div></div>
+                
+                <div class="logoComp">
+                    <img src="./images/c-logo.svg">
+                    <img src="./images/cplus-logo.svg">
                 </div>
-                <div>
-                    <img class="logoComp" src="./images/sql-logo.svg">
-                    <span></span>
+                <div id="progressBar5" class="progressBar"><div id="progressInnerBar5" class="progressInnerBar">C / C++</div></div>
+                
+                <div class="logoComp">
+                    <img class="logoComp" style="width:4em; height:4em;" src="./images/sql-logo.svg">
                 </div>
+                <div id="progressBar6" class="progressBar"><div id="progressInnerBar6" class="progressInnerBar">SQL</div></div>
             </div>
+
             <div id="passions" class="paneAcc">
                 passions
             </div>

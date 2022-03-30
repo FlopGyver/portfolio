@@ -226,7 +226,6 @@ h2 {
   padding: 0 5%;
   width: 40em;
   height: 32.5em;
-  z-index: -2;
   grid-column: 2;
   grid-row: 2;
   left: 10vw;
@@ -235,12 +234,35 @@ h2 {
 ::-webkit-scrollbar {
   display: none;
 }
+
+/*Partie Qui suis je*/
 #qsj {
   grid-column: 1;
   grid-row: 1;
   margin-top: 100vh;
   transition: all .5s;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  
 }
+#qsj div {
+  color: #f7f7f7;
+  font-size: 2.5em;
+  grid-column: 2;
+  text-align: left;
+}
+#avatar {
+  width: 15em;
+  height: auto;
+  border-radius: 7.5em;
+  grid-row: 1/3;
+  grid-column: 1;
+  margin: auto;
+  -webkit-box-shadow: 0px -5px 50px -5px rgba(114, 57, 116, 0.61); 
+    box-shadow: 0px -5px 50px -5px rgba(114,57,116,0.61);
+}
+
+/*Partie langages*/
 #competences {
   grid-column: 1;
   grid-row: 2;
@@ -251,6 +273,77 @@ h2 {
 .logoComp {
   grid-column: 1;
 }
+.logoComp img {
+  padding: 5%;
+}
+.progressBar {
+  grid-column: 2;
+  margin: auto;
+  background-color: #4B4B4B;
+  width: 90%;
+  height: 2em;
+  border-radius: 0.25em;
+}
+#progressBar1 {
+  grid-row: 1;
+}
+#progressBar2 {
+  grid-row: 2;
+}
+#progressBar3 {
+  grid-row: 3;
+}
+#progressBar4 {
+  grid-row: 4;
+}
+#progressBar5 {
+  grid-row: 5;
+}
+#progressBar6 {
+  grid-row: 6;
+}
+
+.progressInnerBar {
+  transition: all 1s;
+  background-color: #98669a;
+  color: #f7f7f7;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#progressInnerBar1 {
+  width: 0;
+  height: 100%;
+  position: relative;
+}
+#progressInnerBar2 {
+  width: 0;
+  height: 100%;
+  position: relative;
+}
+#progressInnerBar3 {
+  width: 0;
+  height: 100%;
+  position: relative;
+}
+#progressInnerBar4 {
+  width: 0;
+  height: 100%;
+  position: relative;
+}
+#progressInnerBar5 {
+  width: 0;
+  height: 100%;
+  position: relative;
+}
+#progressInnerBar6 {
+  width: 0;
+  height: 100%;
+
+  position: relative;
+}
+
 #passions {
   grid-column: 1;
   grid-row: 3;
@@ -271,7 +364,7 @@ h2 {
 }
 
 .paneAcc {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.7);
   width: 100%;
   height: 50vh;
   text-align: center;

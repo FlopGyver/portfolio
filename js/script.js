@@ -104,7 +104,7 @@ $(function() {
         $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.4)");
     })
     $("#btnComp").click(function(){
-        $("#scrollAcc").animate({scrollTop: 550,behavior: 'smooth'}, '500', 'swing');
+        $("#scrollAcc").animate({scrollTop: 575,behavior: 'smooth'}, '500', 'swing');
         $("#btnQsj").css("transform", "scale(1)");
         $("#btnComp").css("transform", "scale(1.3)");
         $("#btnPass").css("transform", "scale(1)");
@@ -112,9 +112,15 @@ $(function() {
         $("#btnQsj").css("background-color", "rgba(0, 0, 0, 0.4)");
         $("#btnComp").css("background-color", "rgba(0, 0, 0, 0.8)");
         $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.4)");
+        $("#progressInnerBar1").css("width", "75%");
+        $("#progressInnerBar2").css("width", "60%");
+        $("#progressInnerBar3").css("width", "55%");
+        $("#progressInnerBar4").css("width", "80%");
+        $("#progressInnerBar5").css("width", "65%");
+        $("#progressInnerBar6").css("width", "75%");
     })
     $("#btnPass").click(function(){
-        $("#scrollAcc").animate({scrollTop:1200}, '500', 'swing');
+        $("#scrollAcc").animate({scrollTop:1400}, '500', 'swing');
         $("#btnQsj").css("transform", "scale(1)");
         $("#btnComp").css("transform", "scale(1)");
         $("#btnPass").css("transform", "scale(1.3)");
@@ -297,5 +303,7 @@ $(function() {
           $("#btnComp").css("left", "6em");
           $("#btnPass").css("left", "6em");
       })
+
+      $("#progressBar1").pr
 
 })
