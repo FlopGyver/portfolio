@@ -155,7 +155,7 @@
     </section>
 <!--Section de la page des experiences-->
     <section id="experiencesSec" class="pageSections">
-        <h1 class="glow">ÉXPERIENCES</h1>
+        <h1 class="glow">EXPÉRIENCES</h1>
         <div id="panesExp">
             <div id="paneDe" class="paneExperience">
                 <h2 class="nomPoste">Dessinateur <span class="spanMauve purpleGlow">d'études</span></h2>
@@ -230,6 +230,11 @@
             <label>Vous pouvez me contacter par mail à</label><br><br>
             <label class="spanMauve purpleGlow"><a class="link" href="mailto:florian.vallet@outlook.com" style="text-decoration: none; color: inherit;">florian.vallet@outlook.com</a></label><br><br>
             <label>ou directement via le formulaire.</label>
+        </div>
+
+        <div id="socialMedia">
+            <a id="github" href="https://github.com/FlopGyver"><img src="./images/Icon awesome-github.svg"></a>
+            <a id="linkedin" href="https://www.linkedin.com/in/florian-vallet-068320b4/"><img  src="./images/Icon simple-linkedin.svg"></a>
         </div>
 
         <div id="formulaire">
