@@ -737,11 +737,10 @@ h2 {
   grid-row: 3;
   padding: 5%;
   align-self: start;
-  height: 8em;
-  width: 20em;
+  width: 54%;
   display: grid;
   grid-template-columns: repeat(2,50%);
-  top:-10%
+  top: -10%;
 }
 #socialMedia a {
   width: 100%;
