@@ -95,7 +95,6 @@ $(function() {
 
     let qsjHeight = ($("#qsj").height()) + ($("#qsj").height()/4);
     let passionHeight = qsjHeight*2;
-    console.log(qsjHeight);
 
     $("#btnQsj").click(function(){
         $("#scrollAcc").animate({scrollTop:0,behavior: 'smooth'}, '500', 'swing');
@@ -126,7 +125,6 @@ $(function() {
         $("#progressInnerBar4").css("width", "80%");
         $("#progressInnerBar5").css("width", "65%");
         $("#progressInnerBar6").css("width", "75%");
-        console.log(qsjHeight);
     })
     $("#btnPass").click(function(){
         $("#scrollAcc").animate({scrollTop:passionHeight,behavior: 'smooth'}, '500', 'swing');

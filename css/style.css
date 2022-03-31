@@ -741,6 +741,11 @@ h2 {
   width: 20em;
   display: grid;
   grid-template-columns: repeat(2,50%);
+  top:-10%
+}
+#socialMedia a {
+  width: 100%;
+  height: auto;
 }
 #socialMedia a:hover {
   transform: scale(1.3);
