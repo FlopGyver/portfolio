@@ -93,9 +93,12 @@ $(function() {
 
     //Selection dans la section de l'Accueil
 
+    let qsjHeight = ($("#qsj").height()) + ($("#qsj").height()/4);
+    let passionHeight = qsjHeight*2;
+    console.log(qsjHeight);
+
     $("#btnQsj").click(function(){
-//        $("#scrollAcc").animate({scrollTop:0}, '500', 'swing');
-        $("#scrollAcc").animate({scrollTop: $("#qsj").offset().top}, '500', 'swing');
+        $("#scrollAcc").animate({scrollTop:0,behavior: 'smooth'}, '500', 'swing');
 
         $("#btnQsj").css("transform", "scale(1.3)");
         $("#btnComp").css("transform", "scale(1)");
@@ -104,10 +107,11 @@ $(function() {
         $("#btnQsj").css("background-color", "rgba(0, 0, 0, 0.8)");
         $("#btnComp").css("background-color", "rgba(0, 0, 0, 0.4)");
         $("#btnPass").css("background-color", "rgba(0, 0, 0, 0.4)");
+
+        
     })
     $("#btnComp").click(function(){
-//        $("#scrollAcc").animate({scrollTop: 575,behavior: 'smooth'}, '500', 'swing');
-        $("#scrollAcc").animate({scrollTop: $("#competences").offset().top}, '500', 'swing');
+        $("#scrollAcc").animate({scrollTop: qsjHeight,behavior: 'smooth'}, '500', 'swing');
 
         $("#btnQsj").css("transform", "scale(1)");
         $("#btnComp").css("transform", "scale(1.3)");
@@ -122,11 +126,10 @@ $(function() {
         $("#progressInnerBar4").css("width", "80%");
         $("#progressInnerBar5").css("width", "65%");
         $("#progressInnerBar6").css("width", "75%");
+        console.log(qsjHeight);
     })
     $("#btnPass").click(function(){
-//        $("#scrollAcc").animate({scrollTop:1400}, '500', 'swing');
-        $("#scrollAcc").animate({scrollTop: $("#passions").offset().top}, '500', 'swing');
-
+        $("#scrollAcc").animate({scrollTop:passionHeight,behavior: 'smooth'}, '500', 'swing');
         
         $("#btnQsj").css("transform", "scale(1)");
         $("#btnComp").css("transform", "scale(1)");
