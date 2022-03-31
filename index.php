@@ -21,6 +21,8 @@
     <img id="mountains" src="./images/mountains2.svg" alt="mountains">
     <div id="sun"><img id="sunImg" src="./images/sun.svg" alt="sun"></div>
 
+    
+
 <!--Barre de navigation-->
     <section id="navBarSec">
         <div id="btn-container">
